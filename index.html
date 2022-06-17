@@ -4,10 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="page" class="flex">
+        <div id="title">Rock-Paper-Scissors</div>
+        <div id="versus" class="flex">
+            <div class="player box flex"></div>
+            <div class="vs box flex">VS</div>
+            <div class="cpu box flex"></div>
+        </div>
+        <div id="score" class="flex">
+            <div class="player vs box flex"></div>
+            <div class="round vs box flex">-</div>
+            <div class="cpu vs box flex"></div>
+        </div>
+        <div id="choose-text">Choose your destiny</div>
+        <div id="options" class="flex">
+            <div class="rock box flex button" name="rock"><img src="pics/RockL.png"></div>
+            <div class="paper box flex button" name="paper"><img src="pics/PaperL.png"></div>
+            <div class="scissors box flex button" name="scissors"><img src="pics/ScissorsL.png"></div>
+        </div>
+    </div>
 </body>
 </html>
